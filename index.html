@@ -12,6 +12,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <section class="age-gate" id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title" aria-describedby="age-description">
+    <div class="age-panel">
+      <p class="age-kicker">DP. ARTE VISUAL / ACCESO</p>
+      <p class="age-number" aria-hidden="true">18<span>+</span></p>
+      <h1 id="age-title">Contenido para <em>adultos.</em></h1>
+      <p id="age-description">Esta galería puede incluir desnudo artístico e imágenes sensibles. Confirma que tienes al menos 18 años para continuar.</p>
+      <div class="age-actions">
+        <button id="age-accept" type="button">Tengo 18 años o más →</button>
+        <a id="age-decline" href="https://ddepazos.github.io/portafolios2026/">Soy menor de 18 años</a>
+      </div>
+      <p class="age-note">Este acceso utiliza una declaración voluntaria de edad; no verifica documentos ni identidad.</p>
+    </div>
+  </section>
+  <div class="site-content" id="site-content" hidden>
   <a class="skip" href="#contenido">Saltar al contenido</a>
 
   <header class="header">
@@ -109,5 +123,6 @@
       Volver al portafolio ↗
     </a>
   </footer>
+  </div>
 </body>
 </html>
